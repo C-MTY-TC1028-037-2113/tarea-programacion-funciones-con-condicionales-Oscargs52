@@ -1,7 +1,7 @@
 def calcula_grado(grado):
     if grado < 0.0 or grado > 1.0:
         nota = "score incorrecto"
-    elif grado > 0.9:
+    elif grado>0.9:
         nota = "A"
     elif grado > 0.8:
         nota = "B"
